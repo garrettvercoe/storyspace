@@ -64,3 +64,18 @@ button {
 button:hover {
   color: #000;
 }
+
+@media only screen and (max-width: 966px) {
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  button,
+  textarea {
+    font-size: 2rem;
+  }
+}
