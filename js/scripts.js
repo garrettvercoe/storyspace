@@ -31,7 +31,7 @@ var jsonResult;
 $.ajax({
   dataType: "json",
   url:
-    "https://gist.githubusercontent.com/garrettvercoe/a4456ea32a5a291dd46e5257715a4cb2/raw/f39fe92f92b1426fae9d5a8f9b52a2ee962655c5/cleaned_contact.json",
+    "https://gist.githubusercontent.com/garrettvercoe/8465b4c979dd052586ce0b3090793636/raw/71732ad99965ee2931a7aff9aab112154319d7c1/cleaned_contact.json",
   success: function(e) {
     //    jsonResult = data;
     //    console.log(data)
