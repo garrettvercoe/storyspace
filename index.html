@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="styles.css" />
     <meta charset="utf-8" />
 
-    <title>Share Your Hopes</title>
-    <meta name="description" content="A Post-COVID-19 World" />
+    <title>Listen to Hopes</title>
+    <meta name="description" content="The HTML5 Herald" />
     <meta name="author" content="SitePoint" />
 
     <link rel="stylesheet" href="css/styles.css?v=1.0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -17,21 +19,9 @@
       <h2>
         The Better Normal
       </h2>
-      <a href="listen.html">Read hopes</a>
-      <!-- <p>Read hopes instead</p> -->
+      <a href="submit.html">Submit a hope</a>
     </div>
-
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label
-          >What are your hopes for our society post-COVID-19?
-          <br /><br /><textarea name="message"></textarea
-        ></label>
-      </p>
-      <p>
-        <br />
-        <button type="submit">Submit</button>
-      </p>
-    </form>
+    <p id="submissionContainer"></p>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
