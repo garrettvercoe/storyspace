@@ -80,7 +80,8 @@ button:hover {
   h6,
   p,
   button,
-  textarea {
+  textarea,
+  .submission {
     font-size: 48px;
   }
 }
